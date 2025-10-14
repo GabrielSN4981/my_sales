@@ -53,7 +53,8 @@
     "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": ["node_modules", "build", "dist", "eslint.config.js"]
 }
