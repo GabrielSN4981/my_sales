@@ -50,7 +50,7 @@ export default class ProductsControllers {
     return response.json(product);
   }
 
-  async deolete(request: Request, response: Response): Promise<Response> {
+  async delete(request: Request, response: Response): Promise<Response> {
     const { id } = request.params;
     if (!id) {
       throw new AppError("ID not found");
