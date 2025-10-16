@@ -39,6 +39,7 @@
     // "noPropertyAccessFromIndexSignature": true,
 
     // Recommended Options
+    "typeRoots": ["node_modules/@types", "src/@types"],
     "strict": true,
     "jsx": "react-jsx",
     "verbatimModuleSyntax": false,
