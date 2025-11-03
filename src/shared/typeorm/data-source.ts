@@ -3,7 +3,8 @@ import "dotenv/config";
 import { DataSource } from "typeorm";
 
 const port = process.env.PORT as number | undefined;
-
+// AppDataSource serve para fazer as operações com o banco de dados
+// ele é uma instância da classe DataSource do TypeORM
 export const AppDataSource = new DataSource({
   type: "postgres",
   host: process.env.DB_HOST,
