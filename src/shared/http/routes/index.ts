@@ -15,7 +15,7 @@ routes.get("/health", (request, response) => {
 routes.use("/products", productsRouter);
 routes.use("/users", usersRouter);
 routes.use("/sessions", sessionsRouter);
-routes.use("/avatar", avatarRouter);
+routes.use("/avatars", avatarRouter);
 routes.use("/files", express.static(uploadConfig.directory));
 routes.use("/passwords", passwordRouter);
 routes.use("/profiles", profileRouter);
